@@ -1,0 +1,15 @@
+/* HOJA DE ESTILO */
+
+/* PALETA DE COLORES */
+:root{
+    --color1:#ff6f8d;
+    --color2:#554f1f;
+    --color3:#19302b;
+    --color4:#0b1416;
+    --color5:#fefefe;         
+}
+
+/* PAG INICIO (INDEX) */
+.navbar{
+    background-color: var(--color3);
+}
