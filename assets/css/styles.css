@@ -13,3 +13,26 @@
 .navbar{
     background-color: var(--color3);
 }
+
+
+/* SECCION CONTACTANOS */
+/* Estilo CSS para el formulario con imagen de fondo */
+.formulario {
+    background-image: url('../img/fondo\ negro.avif'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+    padding: 60px; /* Añade un poco de espacio alrededor del formulario */
+    
+}
+.cont{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/* COLOR MORADO A BOTON FORMULARIO */
+.btn{
+    background-color: var(--color2);
+}
+/* PIE DE PAGINA */
+.fin{
+    background-color: var(--color4);
+}
