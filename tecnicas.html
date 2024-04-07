@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enlaza la biblioteca Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- BOOTSTRAP 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- link a css -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>GRUPO CERO</title>
+</head>
+<body>
+    <!-- MENÚ CON LOGO -->
+    <!-- BARRA DE NAVEGACIÓN -->
+    <!-- que la barra se expanda, y que sea del color morado -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #19302b;">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <!-- botón de hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!--  Este es el ícono que se muestra dentro del botón de hamburguesa. -->
+                <span class="navbar-toggler-icon"></span>
+                <!-- BOTONES -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 justify-content-center">
+                    <!-- COLUMNA 1 -->
+                    <li class="nav-item">
+                        <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ iconos en color blanco / link a wsp / icono de wsp-->
+                        <a class="nav-link text-white" href="https://wa.me/"><i class="fab fa-whatsapp"></i></a>
+                    </li>
+                    <li class="nav-item ">
+                        <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ iconos en color blanco / link a facebook/ icono de facebook-->
+                        <a class="nav-link text-white" href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ iconos en color blanco / link a instagram/ icono de instagram-->
+                        <a class="nav-link text-white" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <!-- COLUMNA 2 (logo)-->
+                    <li class="nav-item d-flex justify-content-center   ms-auto">
+                        <img class="logo" src="./assets/img/logo-blanco.png" alt="">
+                    </li>
+                    <!-- MENÚ -->
+                    <!-- COLUMNA 3 -->
+                    <li class="nav-item d-flex justify-content-center   ms-auto">
+                        <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ icono/texto en color blanco/texto-->
+                        <a class="nav-link text-white" href="http://127.0.0.1:5501/artistas.html"></i>Artístas</a>
+                    </li>
+                    <!-- COLUMNA 4 -->
+                    <li class="nav-item d-flex justify-content-center   ms-auto">
+                        <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ icono/texto en color blanco/ texto-->
+                        <a class="nav-link text-white" href="http://127.0.0.1:5501/tecnicas.html"></i>Técnicas</a>
+                    </li>
+                    <!-- COLUMNA 5 -->
+                    <li class="nav-item d-flex justify-content-center   ms-auto">
+                        <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ icono/texto en color blanco/ texto-->
+                        <a class="nav-link text-white" href="http://127.0.0.1:5501/productos.html"></i>Obras</a>
+                    </li>
+                    <!-- COLUMNA 6 -->
+                    <li class="nav-item d-flex justify-content-center   ms-auto">
+                      <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ icono/texto en color blanco/ texto-->
+                      <a class="nav-link text-white" href="http://127.0.0.1:5501/login.html"></i>Login</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- TITULO PAG -->
+    <h6 class="h6 text-center m-5">TÉCNICAS</h6>
+
+    <!-- TARJETAS TECNICAS -->
+    <div class="row row-cols-1 row-cols-md-2 g-4 p-5">
+        <div class="col">
+          <div class="card">
+            <img src="./assets/img/pintura3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PINTURA</h5>
+              <p class="card-text">Técnica artística que utiliza pigmentos aplicados sobre una superficie, generalmente lienzo, papel o muro, mediante pinceles, espátulas u otros utensilios. La pintura puede abordar una amplia variedad de temas y estilos, desde paisajes naturales hasta abstracciones abstractas, y se ha utilizado a lo largo de la historia como medio de expresión personal, comunicación cultural y registro histórico.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./assets/img/orfebre2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ORFEBRERÍA</h5>
+              <p class="card-text">Arte de trabajar metales preciosos como oro, plata y bronce para crear objetos decorativos o funcionales, como joyas, candelabros o reliquias religiosas. Se caracteriza por su meticulosa atención al detalle y la habilidad en el manejo de herramientas especializadas como el martillo, el buril y el soldador.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./assets/img/tejido2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">TEJIDO</h5>
+              <p class="card-text">Arte de entrelazar hilos, ya sea a mano o en telares, para crear textiles como telas, tapices, alfombras y prendas de vestir. Esta técnica puede implicar una amplia gama de materiales, desde fibras naturales como algodón y lana hasta sintéticas como el poliéster, y se caracteriza por su variedad de patrones y texturas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./assets/img/escultura3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ESCULTURA</h5>
+              <p class="card-text">Arte de crear formas tridimensionales mediante la manipulación de materiales como piedra, madera, metal, arcilla o yeso. Las esculturas pueden ser abstractas o figurativas y pueden variar en tamaño desde pequeñas estatuillas hasta monumentos monumentales. Esta forma de arte ha existido desde tiempos prehistóricos y ha evolucionado a lo largo de la historia, reflejando las creencias, valores y estilos estéticos de diversas culturas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!-- CONTACTANOS -->
+  <form class="formulario d-flex flex-column align-items-center text-white">
+    <h4>CONTÁCTANOS</h4>
+    
+    <!-- fila 1 -->
+    <div class="container-fluid mb-3">
+        <div class="cont row d-flex">
+            <!-- columna 1 -->
+            <div class="form col-6">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+            </div>
+            <!-- columna 2 -->
+            <div class="form col-6">
+                <label for="correo" class="form-label">Correo</label>
+                <input type="text" class="form-control" id="correo" aria-describedby="emailHelp">
+            </div>
+        </div>
+    </div>
+
+    <!-- fila 2 -->
+    <div class="container-fluid mb-3">
+        <div class=" cont row">
+            <!-- columna única -->
+            <div class="col-12">
+                <!-- Etiqueta "Mensaje" -->
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <!-- Cuadro de texto "Mensaje" -->
+                <textarea class="form-control" id="mensaje" rows="3"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <!-- botón de enviar -->
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+   
+  <!-- PIE DE PAGINA -->
+  <!-- nombre clase/texto centrado/padding -5 -->
+  <footer class="fin text-center p-5">
+    <img class="logo2" src="./assets/img/logo-blanco.png" alt="">
+    <!-- texto blanco/margen de todos lados 5 -->
+    <p class="text-white m-5">
+        <!-- icono copy/color blanco/margen suoerior 5 -->
+        <i class="fas fa-copyright text-white"></i>
+        2004 - Todos los derechos reservados.
+    </p>
+</footer>
+
+    <!-- SCRIPT DE FUNCIONALIDAD -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>

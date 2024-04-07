@@ -10,15 +10,21 @@
 }
 
 /* PAG INICIO (INDEX) */
+/* COLOR FONDO NARVAR */
 .navbar{
     background-color: var(--color3);
+}
+
+/* TAMAÑO LOGO EN NARVAR */
+.logo{
+    height: 70px;
 }
 
 
 /* SECCION CONTACTANOS */
 /* Estilo CSS para el formulario con imagen de fondo */
 .formulario {
-    background-image: url('../img/fondo\ negro.avif'); /* Ruta de tu imagen de fondo */
+    background-image: url('../img/fondo\ negro.avif'); /* Ruta de imagen de fondo */
     background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
     background-position: center; /* Centra la imagen de fondo */
     padding: 60px; /* Añade un poco de espacio alrededor del formulario */
@@ -32,7 +38,26 @@
 .btn{
     background-color: var(--color2);
 }
+
+
 /* PIE DE PAGINA */
 .fin{
+    /* COLOR FONDO */
     background-color: var(--color4);
+    /* TAMAÑO ALTURA */
+    max-height: 300px;
+
 }
+/* TAMAÑO LOGO PIE DE PAGINA */
+.logo2{
+    height: 150px;
+}
+
+/* ESTILOS PAGINA LOGIN */
+/* ESTILOS PAGINA REGISTRO */
+/* ESTILOS PAGINA ARTISTAS */
+.carousel slide{
+    max-height: 400px;
+}
+/* ESTILOS PAGINA PRODUCTOS */
+/* ESTILOS PAGINA TECNICAS */
