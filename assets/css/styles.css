@@ -42,7 +42,7 @@
     /* BOTON BUSCAR */
     /* Cambiar color del botón al pasar el ratón por encima */
     .btn-buscar {
-        background-color: seagreen /* verde */
+        background-color: seagreen; /* verde */
         border-color: var(--color5); /* también cambiamos el color del borde */
     }
     
@@ -50,9 +50,38 @@
         background-color: var(--color2); 
         border-color: var(--color4); /* también cambiamos el color del borde */
     }
+
+    /*Agregar margen a las imágenes más pequeñas */
+    .carousel-item img {
+        max-width: 50%; /* Establecer el ancho máximo al 50% */
+        height: auto; /* Altura automática para mantener la relación de aspecto */
+        margin: 0 auto; /* Agregar margen automático horizontalmente */
+        object-fit: cover;
+    }
     
+    .carousel{
+               
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
 
+    .foto-producto{
+        max-width: 800px;
+    }
 
+    .h5{
+        font-size: 50px;
+        font-family: "Playfair Display", serif;
+    }
+
+    .parrafo{
+        font-size: 20px;
+        font-family: "Playfair Display", serif;
+
+    }
+    
 /* SECCION CONTACTANOS */
     /* Estilo CSS para el formulario con imagen de fondo */
     .formulario {
