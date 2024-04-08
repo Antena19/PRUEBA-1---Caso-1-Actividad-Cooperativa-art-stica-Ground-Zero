@@ -10,54 +10,95 @@
 }
 
 /* PAG INICIO (INDEX) */
-/* COLOR FONDO NARVAR */
-.navbar{
-    background-color: var(--color3);
-}
+    /* COLOR FONDO NARVAR */
+    .navbar{
+        background-color: #19302b;
+            
+    }
 
-/* TAMAÑO LOGO EN NARVAR */
-.logo{
-    height: 70px;
-}
+    /* TAMAÑO LOGO EN NARVAR */
+    .logo{
+        height: 70px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 20px; /* Tamaño de la letra */
+        font-family: "Playfair Display", serif; /* Cambiar la fuente */
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: gray !important; /* Cambia el color del texto al pasar el ratón sobre el enlace */
+        /*  important css tiene prioridad */
+    }
+
+
+
+
+    .navbar-nav .nav-link i {
+        font-size: 24px; /* Tamaño del icono */
+    }
+  
+
+    /* BOTON BUSCAR */
+    /* Cambiar color del botón al pasar el ratón por encima */
+    .btn-buscar {
+        background-color: seagreen /* verde */
+        border-color: var(--color5); /* también cambiamos el color del borde */
+    }
+    
+    .btn-buscar:hover {
+        background-color: var(--color2); 
+        border-color: var(--color4); /* también cambiamos el color del borde */
+    }
+    
 
 
 /* SECCION CONTACTANOS */
-/* Estilo CSS para el formulario con imagen de fondo */
-.formulario {
-    background-image: url('../img/fondo\ negro.avif'); /* Ruta de imagen de fondo */
-    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
-    background-position: center; /* Centra la imagen de fondo */
-    padding: 60px; /* Añade un poco de espacio alrededor del formulario */
-    
-}
-.cont{
-    margin-left: 20%;
-    margin-right: 20%;
-}
-/* COLOR MORADO A BOTON FORMULARIO */
-.btn{
-    background-color: var(--color2);
-}
+    /* Estilo CSS para el formulario con imagen de fondo */
+    .formulario {
+        background-image: url('../img/fondo\ negro.avif'); /* Ruta de imagen de fondo */
+        background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+        background-position: center; /* Centra la imagen de fondo */
+        padding: 60px; /* Añade un poco de espacio alrededor del formulario */
+        font-family: "Playfair Display", serif; /* Cambiar la fuente */
+        
+    }
+    .cont{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    /* COLOR A BOTON FORMULARIO */
+    .btn{
+        background-color: seagreen;
+        
+    }
 
 
 /* PIE DE PAGINA */
-.fin{
-    /* COLOR FONDO */
-    background-color: var(--color4);
-    /* TAMAÑO ALTURA */
-    max-height: 300px;
+    .fin{
+        /* COLOR FONDO */
+        background-color: var(--color4);
+        /* TAMAÑO ALTURA */
+        max-height: 300px;
 
-}
-/* TAMAÑO LOGO PIE DE PAGINA */
-.logo2{
-    height: 150px;
-}
+    }
+    /* TAMAÑO LOGO PIE DE PAGINA */
+    .logo2{
+        height: 150px;
+    }
 
 /* ESTILOS PAGINA LOGIN */
 /* ESTILOS PAGINA REGISTRO */
+
+
 /* ESTILOS PAGINA ARTISTAS */
 .carousel slide{
     max-height: 400px;
+}
+
+.h6{
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
 }
 /* ESTILOS PAGINA PRODUCTOS */
 /* ESTILOS PAGINA TECNICAS */

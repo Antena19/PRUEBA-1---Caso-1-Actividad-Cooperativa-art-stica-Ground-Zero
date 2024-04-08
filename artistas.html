@@ -14,8 +14,8 @@
 <body>
     <!-- MENÚ CON LOGO -->
     <!-- BARRA DE NAVEGACIÓN -->
-    <!-- que la barra se expanda, y que sea del color morado -->
-    <nav class="navbar navbar-expand-lg" style="background-color: #19302b;">
+    <!-- que la barra se expanda-->
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#"></a>
             <!-- botón de hamburguesa -->
@@ -27,15 +27,15 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav w-100 justify-content-center">
                     <!-- COLUMNA 1 -->
-                    <li class="nav-item">
+                    <li class="nav-item mt-3">
                         <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ iconos en color blanco / link a wsp / icono de wsp-->
                         <a class="nav-link text-white" href="https://wa.me/"><i class="fab fa-whatsapp"></i></a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item mt-3 ">
                         <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ iconos en color blanco / link a facebook/ icono de facebook-->
                         <a class="nav-link text-white" href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mt-3">
                         <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ iconos en color blanco / link a instagram/ icono de instagram-->
                         <a class="nav-link text-white" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
                     </li>
@@ -45,31 +45,35 @@
                     </li>
                     <!-- MENÚ -->
                     <!-- COLUMNA 3 -->
-                    <li class="nav-item d-flex justify-content-center   ms-auto">
+                    <li class="nav-item d-flex justify-content-center   ms-auto mt-3">
                         <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ icono/texto en color blanco/texto-->
                         <a class="nav-link text-white" href="http://127.0.0.1:5501/artistas.html"></i>Artístas</a>
                     </li>
                     <!-- COLUMNA 4 -->
-                    <li class="nav-item d-flex justify-content-center   ms-auto">
+                    <li class="nav-item d-flex justify-content-center   ms-auto mt-3">
                         <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ icono/texto en color blanco/ texto-->
                         <a class="nav-link text-white" href="http://127.0.0.1:5501/tecnicas.html"></i>Técnicas</a>
                     </li>
                     <!-- COLUMNA 5 -->
-                    <li class="nav-item d-flex justify-content-center   ms-auto">
+                    <li class="nav-item d-flex justify-content-center   ms-auto mt-3">
                         <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ icono/texto en color blanco/ texto-->
-                        <a class="nav-link text-white" href="http://127.0.0.1:5501/productos.html"></i>Obras</a>
+                        <a class="nav-link text-white" href="http://127.0.0.1:5501/productos.html"></i>Productos</a>
                     </li>
                     <!-- COLUMNA 6 -->
-                    <li class="nav-item d-flex justify-content-center   ms-auto">
+                    <li class="nav-item d-flex justify-content-center   ms-auto mt-3">
                       <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ icono/texto en color blanco/ texto-->
                       <a class="nav-link text-white" href="http://127.0.0.1:5501/login.html"></i>Login</a>
                   </li>
                   <!-- COLUMNA 7 -->
-                  <li class="nav-item d-flex justify-content-center   ms-auto">
+                  <li class="nav-item d-flex justify-content-center   ms-auto mt-3">
+                    <!-- a=crea un enlace/crea una clase=estilo de bootstrap/ icono/texto en color blanco/ texto-->
+                    <a class="nav-link text-white" href="http://127.0.0.1:5501/registro.html"></i>Registro</a>
+                  <!-- COLUMNA 8 -->
+                  <li class="nav-item justify-content-center   ms-auto mt-3">
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                      </form>
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-success btn-buscar" type="submit">Buscar</button>
+                    </form>
                   </li>
                 </ul>
             </div>
@@ -276,6 +280,41 @@
         </div>
 
     </div>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <!-- CONTACTANOS -->
+    <form class="formulario d-flex flex-column align-items-center text-white">
+        <h4 class="h4">CONTÁCTANOS</h4>      
+        <!-- fila 1 -->
+        <div class="container-fluid mb-3 mt-5">
+            <div class="cont row d-flex">
+                <!-- columna 1 -->
+                <div class="form col-6">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+                </div>
+                <!-- columna 2 -->
+                <div class="form col-6">
+                    <label for="correo" class="form-label">Correo</label>
+                    <input type="text" class="form-control" id="correo" aria-describedby="emailHelp">
+                </div>
+            </div>
+        </div>  
+        <!-- fila 2 -->
+        <div class="container-fluid mb-3">
+            <div class=" cont row">
+                <!-- columna única -->
+                <div class="col-12">
+                    <!-- Etiqueta "Mensaje" -->
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <!-- Cuadro de texto "Mensaje" -->
+                    <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                </div>
+            </div>
+        </div>  
+        <!-- botón de enviar -->
+        <button type="submit" class="btn btn-lg btn-success mt-5">Enviar</button>
+    </form>
     
     
 
