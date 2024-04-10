@@ -50,7 +50,7 @@
     }
 
     .fotos {
-        width: 500px;
+        width: 400px;
         border-radius: 10%;
 
     }
@@ -67,9 +67,9 @@
     }
 
     /* slide */
-/*Agregar margen a las imágenes más pequeñas */
+
     .carousel-item img {
-        max-width: 100%; /* Establecer el ancho máximo al 50% */
+        max-width: 100%; /* Establecer el ancho máximo al 100% */
         height: auto; /* Altura automática para mantener la relación de aspecto */
         
         object-fit: cover;
@@ -160,13 +160,14 @@
         height: 150px;
     }
 
-/* ESTILOS PAGINA LOGIN */
-/* ESTILOS PAGINA REGISTRO */
-
-
 /* ESTILOS PAGINA ARTISTAS */
-.carousel slide{
-    max-height: 400px;
+.carousel-artistas{
+    width: 530px;
+    margin-top: 10%;
+}
+
+,card{
+    margin-top: 30%;
 }
 
 .h6{

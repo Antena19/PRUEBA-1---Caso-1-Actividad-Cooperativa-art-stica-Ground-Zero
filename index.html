@@ -150,27 +150,26 @@
 
   </div>
 
-  <!-- ARTISTAS Y TECNICAS -->
+    <!-- ARTISTAS Y TECNICAS -->
   <div class="container-fluid m-5 p-5 text-center">
     <!-- fila 1 -->
     <div class="row">
       <!-- COLUMNA 1 -->
-      <div class="col-6">
+      <!-- PARA PANTALLAS SM=12 MD=6 ORDEN EN PANTALLAS SM (576px) Y ORDEN EN PANTALLAS MD -->
+      <div class="col-12 col-md-6 order-sm-1 order-md-1 justify-content-center">
         <img class="fotos" src="./assets/img/artista1.jpg" alt="">
       </div>
       <!-- COLUMNA 2 -->
-      <div class="col-6">
+      <div class="col-12 col-md-6 order-sm-3 order-md-2 justify-content-center">
         <img class="fotos" src="./assets/img/tecnica1.jpg" alt="">
+      </div>  
+          <!-- COLUMNA 3-->
+      <div class="col-12 col-md-6 order-sm-2 order-md-3 justify-content-center">
+        <a class="subtitulos text-center" href="http://127.0.0.1:5501/artistas.html"><h4>Artistas</h4></a>
       </div>
-    </div>
-    <div class="row mt-5">
-      <!-- COLUMNA 1 -->
-      <div class="col-6">
-        <a class="subtitulos" href="http://127.0.0.1:5501/artistas.html"><h4>Artistas</h4></a>
-      </div>
-      <!-- COLUMNA 2 -->
-      <div class="col-6">
-        <a class="subtitulos" href="http://127.0.0.1:5501/tecnicas.html"><h4>Técnicas</h4></a>
+      <!-- COLUMNA 4 -->
+      <div class="col-12 col-md-6 order-sm-4 order-md-4 justify-content-center">
+        <a class="subtitulos text-center" href="http://127.0.0.1:5501/tecnicas.html"><h4>Técnicas</h4></a>
       </div>
     </div>
   </div>
@@ -194,12 +193,12 @@
       <div class="container-fluid mb-3 mt-5">
           <div class="cont row d-flex">
               <!-- columna 1 -->
-              <div class="form col-6">
+              <div class="form col-sm-12 col-md-6">
                   <label for="nombre" class="form-label">Nombre</label>
                   <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
               </div>
               <!-- columna 2 -->
-              <div class="form col-6">
+              <div class="form col-sm-12 col-md-6">
                   <label for="correo" class="form-label">Correo</label>
                   <input type="text" class="form-control" id="correo" aria-describedby="emailHelp">
               </div>
@@ -219,12 +218,8 @@
       </div>  
       <!-- botón de enviar -->
       <button type="submit" class="btn btn-lg btn-success mt-5">Enviar</button>
-  </form>
-
+  </form>         
     
-        
-    
-
   <!-- PIE DE PAGINA -->
   <!-- nombre clase/texto centrado/padding -5 -->
   <footer class="fin text-center p-5">
