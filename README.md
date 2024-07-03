@@ -1,0 +1,1 @@
+# cooperativa_artistica_grupo_zero
